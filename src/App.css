@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.square {
+  width: 550px;          /* 네모의 너비 */
+  height: 850px;         /* 네모의 높이 */
+  background-color: #c4da87; /* 네모의 배경 색상 */
+  border: 2px solid #000; /* 네모의 테두리 색상과 두께 */
+  position: relative;
+ 
+   
+}
+
+.ranking1{
+  text-align: center;
+}
+
+.btnbtn{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+/* .btn{
+  position: relative;
+  left: 40px;
+} */
+
+.oo{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.ll{
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center;  
+}
+
+
+.square2 {
+  width: 450px;          /* 네모의 너비 */
+  height: 700px;         /* 네모의 높이 */
+  background-color: beige; /* 네모의 배경 색상 */
+  border: 2px solid #000; /* 네모의 테두리 색상과 두께 */
+   
+}
+
+.App {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center;     /* 수직 중앙 정렬 */
+  height: 100vh;           /* 화면 높이 */
+  margin: 0;               /* 기본 마진 제거 */
+  background-color: #f0f0f0; /* 배경 색상 (선택 사항) */
+}
+.modal-overlay_ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content_ {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  width: 300px;
+  position: relative;
+}
+
+.modal-close_ {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
 }
